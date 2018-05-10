@@ -26,7 +26,7 @@ function removeLastKitten(){
   var nk=kittens.slice(0)
   nk.pop()
   return nk
-}  
+}
 function removeFirstKitten(){
   var nk=kittens.slice(0)
   nk.shift()
