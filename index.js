@@ -20,7 +20,8 @@ function appendKitten(name){
 }
 function prependKitten(name){
   var nk=kittens.slice(0)
-  return nk.unshift(name)
+  nk.unshift(name)
+  return nk
 }
 function removeLastKitten(){
   var nk=kittens.slice(0)
