@@ -29,7 +29,7 @@ function removeLastKitten(){
   return nk
 }
 function removeFirstKitten(){
-  var nk=kittens.slice(0)
-  nk.shift()
+  var nk=kittens.slice(1)
+  //nk.shift()
   return nk
 }
